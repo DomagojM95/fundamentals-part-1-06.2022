@@ -1,0 +1,1 @@
+# fundamentals-part-1-06.2022
