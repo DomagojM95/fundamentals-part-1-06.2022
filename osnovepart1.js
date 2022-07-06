@@ -90,3 +90,12 @@ const description =
 
 console.log(description);
 */
+
+const now = 2037;
+const ageDomagoj = now - 1991;
+const ageEva = now - 2018;
+
+console.log(now - 1991 > now - 2018);
+
+const averageAge = (ageDomagoj + ageEva) / 2;
+console.log(ageDomagoj, ageEva, averageAge);
