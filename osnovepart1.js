@@ -89,7 +89,7 @@ const description =
   "Portugal is in Europe, and its 11 million people speaks portuguese";
 
 console.log(description);
-*/
+
 
 const now = 2037;
 const ageDomagoj = now - 1991;
@@ -99,3 +99,19 @@ console.log(now - 1991 > now - 2018);
 
 const averageAge = (ageDomagoj + ageEva) / 2;
 console.log(ageDomagoj, ageEva, averageAge);
+
+/////////////////////////////////////////////////////////////
+const markWeight = 95;
+const markHight = 1.88;
+
+const johnWeight = 85;
+const johnHight = 1.76;
+
+let markBMI = markWeight / (markHight * markHight);
+let johnBMI = johnWeight / (johnHight * johnHight);
+console.log(markBMI, johnBMI);
+
+let markHigherBMI = markBMI > johnBMI;
+console.log(markHigherBMI);
+////////////////////////////////////////////////////////////////
+*/
