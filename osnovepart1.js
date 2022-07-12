@@ -114,4 +114,21 @@ console.log(markBMI, johnBMI);
 let markHigherBMI = markBMI > johnBMI;
 console.log(markHigherBMI);
 ////////////////////////////////////////////////////////////////
+
+
+////////////////////////////////////////////
+const now = 2037;
+const ageDomagoj = now - 1991;
+const ageEva = now - 2018;
+
+console.log(now - 1991 > now - 2018);
+
+let x, y;
+
+x = y = 25 - 10 - 5;
+console.log(x, y);
+
+const averageAge = (ageDomagoj + ageEva) / 2;
+console.log(ageDomagoj, ageEva, averageAge);
+////////////////////////////////////////////
 */
