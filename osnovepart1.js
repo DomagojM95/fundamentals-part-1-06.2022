@@ -131,4 +131,22 @@ console.log(x, y);
 const averageAge = (ageDomagoj + ageEva) / 2;
 console.log(ageDomagoj, ageEva, averageAge);
 ////////////////////////////////////////////
+
+
+
+///////// stirnigs and templet literals///////////////////////////////
+const firstName = "Domagoj";
+const job = "tehnicar";
+const birthYear = 1995;
+const year = 2037;
+
+const domagoj =
+  "I m " + firstName + ", a " + (year - birthYear) + " years old " + job + "!";
+
+console.log(domagoj);
+
+const domagojNew = ` I'm ${firstName}, a ${year - birthYear} year old ${job}!`;
+console.log(domagojNew);
+-/////////////////////////////////////
+
 */
