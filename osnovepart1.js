@@ -149,4 +149,15 @@ const domagojNew = ` I'm ${firstName}, a ${year - birthYear} year old ${job}!`;
 console.log(domagojNew);
 -/////////////////////////////////////
 
+
+////////////vježba//////////////////////
+const country = "Portugal";
+const continent = "Europe";
+const language = "Portugese";
+const population = 11;
+
+const description = `${country} is in ${continent}, and its ${population} million people speak ${language}.`;
+console.log(description);
+//////////////////////////////////////////
+
 */
