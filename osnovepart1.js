@@ -180,4 +180,20 @@ if (birthYear <= 2000) {
 }
 console.log(century);
 /////////////////////////////////////////////////////////////////////////////
+
+
+
+///////////////////vježba//////////////////////////////
+
+
+const croPopulation = 130;
+
+if (croPopulation >= 33) {
+  console.log(`Croatian population is above average.`);
+} else {
+  const average = 33 - croPopulation;
+  console.log(`Croatian population is ${average} million below average`);
+}
+////////////////////////////////////////////////////
+
 */
