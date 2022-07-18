@@ -197,3 +197,22 @@ if (croPopulation >= 33) {
 ////////////////////////////////////////////////////
 
 */
+
+//////////////////////// CODING CHALELENGE #2///////////
+
+const markWeight = 95;
+const markHight = 1.88;
+
+const johnWeight = 85;
+const johnHight = 1.76;
+
+let markBMI = markWeight / (markHight * markHight);
+let johnBMI = johnWeight / (johnHight * johnHight);
+
+if (markBMI > johnBMI) {
+  console.log(
+    `Marks's BMI (${markBMI}) is higher than John's BMI (${johnBMI})`
+  );
+} else {
+  console.log(`John's BMI (${johnBMI}) is higher than Mark's BMI (${markBMI})`);
+}
