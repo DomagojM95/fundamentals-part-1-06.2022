@@ -196,7 +196,7 @@ if (croPopulation >= 33) {
 }
 ////////////////////////////////////////////////////
 
-*/
+
 
 //////////////////////// CODING CHALELENGE #2///////////
 
@@ -216,3 +216,26 @@ if (markBMI > johnBMI) {
 } else {
   console.log(`John's BMI (${johnBMI}) is higher than Mark's BMI (${markBMI})`);
 }
+
+///////////////////////////////////////////////////////////////////////////////////////
+
+
+
+//////////////////////////////// Type conversion and coerecion////////////////////////////
+
+// type conversion
+const inputYear = "1991";
+console.log(Number(inputYear));
+console.log(Number(inputYear) + 18);
+
+console.log(String(23));
+
+// type coerecion
+
+console.log("i am " + 23 + " years old");
+console.log("23" - "10" - 3);
+console.log("23" * "2");
+console.log("23" > "18");
+///////////////////////////////////////////////
+
+*/
