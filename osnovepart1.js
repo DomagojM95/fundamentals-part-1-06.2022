@@ -248,7 +248,7 @@ console.log("123" < 57);
 console.log(5 + 6 + "4" + 9 - 4 - 2);
 
 ////////////////////////////////////////////
-*/
+
 
 ////////////////// truthly and falsy values ///////////////////
 
@@ -267,3 +267,30 @@ if (money) {
 } else {
   console.log("You should get a job!");
 }
+
+
+*/
+
+///////////////////////equality operators /////////////////
+
+const age = "18";
+
+if (age === 18) console.log("You jsut becam an adult. (strict)");
+
+if (age == 18) console.log("You jsut becam an adult.(loose)");
+
+/// strictk operator ===
+/// lose oeprator ==
+
+const favorite = Number(prompt("What is your favorite number?"));
+console.log(favorite);
+
+if (favorite === 23) {
+  console.log("cool 23 is an amazing number");
+} else if (favorite === 7) {
+  console.log("7 is also a cool number");
+} else {
+  console.log("number us not 7 or 23");
+}
+
+if (favorite !== 23) console.log("why nopt 23");
