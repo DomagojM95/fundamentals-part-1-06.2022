@@ -318,7 +318,7 @@ if (numNeighbours === 1) {
 //////// Boolean Logic /////////////////////
 
 ////////////////////////////////////////////
-*/
+
 
 ///////////////////// Logical Operators /////////////////
 
@@ -343,3 +343,20 @@ if (hasDriversLicence && goodVision && !isTired) {
 } else {
   console.log("someone else sholud drive..");
 }
+
+*/
+
+/////////////////// vježba /////////////////
+
+const language = "English";
+const populatio = 4;
+const isIsland = false;
+const country = "croatia";
+
+if (language === "English" && populatio < 50 && !isIsland) {
+  console.log(`you schould live in ${country}`);
+} else {
+  console.log(`${country} does not meet your criteria`);
+}
+
+//////////////////////////////////////////
