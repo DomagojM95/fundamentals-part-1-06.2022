@@ -313,4 +313,33 @@ if (numNeighbours === 1) {
   console.log("no borders");
 }
  ////////////////////////////////////////////////
- */
+ 
+
+//////// Boolean Logic /////////////////////
+
+////////////////////////////////////////////
+*/
+
+///////////////////// Logical Operators /////////////////
+
+const hasDriversLicence = true; // A
+const goodVision = false; // B
+
+console.log(hasDriversLicence && goodVision);
+console.log(hasDriversLicence || goodVision);
+console.log(!hasDriversLicence);
+
+if (hasDriversLicence && goodVision) {
+  console.log("sarah is able to drive");
+} else {
+  console.log("someone else sholud drive..");
+}
+
+const isTired = true; // C
+console.log(hasDriversLicence || goodVision || isTired);
+
+if (hasDriversLicence && goodVision && !isTired) {
+  console.log("sarah is able to drive");
+} else {
+  console.log("someone else sholud drive..");
+}
