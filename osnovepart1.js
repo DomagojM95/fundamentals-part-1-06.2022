@@ -344,13 +344,13 @@ if (hasDriversLicence && goodVision && !isTired) {
   console.log("someone else sholud drive..");
 }
 
-*/
+
 
 /////////////////// vježba /////////////////
 
 const language = "English";
 const populatio = 4;
-const isIsland = false;
+const isIsland = true;
 const country = "croatia";
 
 if (language === "English" && populatio < 50 && !isIsland) {
@@ -360,3 +360,29 @@ if (language === "English" && populatio < 50 && !isIsland) {
 }
 
 //////////////////////////////////////////
+
+*/
+
+//////////////////coding challenge #3/////////////
+
+let dolphinsScore1 = 97;
+let dolphinsScore2 = 112;
+let dolphinsScore3 = 101;
+
+let scoreKoalas1 = 109;
+let scoreKoalas2 = 95;
+let scoreKoalas3 = 123;
+
+const dolphinAvrg = (dolphinsScore1 + dolphinsScore2 + dolphinsScore3) / 3;
+const koalasAvrg = (scoreKoalas1 + scoreKoalas2 + scoreKoalas3) / 3;
+console.log(dolphinAvrg, koalasAvrg);
+
+if (dolphinAvrg > koalasAvrg && dolphinAvrg > 100) {
+  console.log("Dolphins wins!");
+} else if (koalasAvrg > dolphinAvrg && koalasAvrg > 100) {
+  console.log("Koalas wins");
+} else if (koalasAvrg === dolphinAvrg && koalasAvrg && dolphinAvrg > 100) {
+  console.log("both tema wins trophy");
+} else {
+  console.log("nobody wins");
+}
