@@ -361,7 +361,7 @@ if (language === "English" && populatio < 50 && !isIsland) {
 
 //////////////////////////////////////////
 
-*/
+
 
 //////////////////coding challenge #3/////////////
 
@@ -386,3 +386,50 @@ if (dolphinAvrg > koalasAvrg && dolphinAvrg > 100) {
 } else {
   console.log("nobody wins");
 }
+
+///////////////////////////////////////////
+
+//////////////////// the switch statment ////////////////////
+
+const day = "monday";
+
+switch (day) {
+  case "monday":
+    console.log("trcanje baranja");
+    console.log("trening snage doma");
+    break;
+  case "tuesday":
+    console.log("ici na posao aaa");
+    break;
+  case "wednesday":
+  case "thursday":
+    console.log("oept trcanjee");
+    break;
+  case "friday":
+    console.log("trening snagee balbalbal");
+    break;
+  case "saturday":
+  case "sunday":
+    console.log("pivica zajebanicja");
+    break;
+  default:
+    console.log("not a valid day");
+}
+*/
+const day = "thursday";
+
+if (day === "monday") {
+  console.log("trcanje baranja");
+  console.log("trening snage doma");
+} else if (day === "tuesday") {
+  console.log("ici na posao aaa");
+} else if (day === "wednesday" || day === "thursday") {
+  console.log("oept trcanjee");
+} else if (day === "friday") {
+  console.log("trening snagee balbalbal");
+} else if (day === "saturday" || day === "sunday") {
+  console.log("pivica zajebanicja");
+} else {
+  console.log("not a valid day");
+}
+//////////////////////////////////////////////////////////////////////
