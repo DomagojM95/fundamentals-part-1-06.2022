@@ -415,7 +415,7 @@ switch (day) {
   default:
     console.log("not a valid day");
 }
-*/
+
 const day = "thursday";
 
 if (day === "monday") {
@@ -433,3 +433,17 @@ if (day === "monday") {
   console.log("not a valid day");
 }
 //////////////////////////////////////////////////////////////////////
+
+*/
+
+///////////////////// conditional operator (Ternary)/////////////////////
+
+const age = 23;
+age >= 18 ? console.log(" Volim piti pivo ") : console.log(" Volim piti vodu ");
+
+const drink = age >= 18 ? "pivo" : "voda";
+console.log(drink);
+
+console.log(`i like to drinkg ${age >= 18 ? "pivo" : "voda"}`);
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
