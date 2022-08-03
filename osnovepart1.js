@@ -434,7 +434,7 @@ if (day === "monday") {
 }
 //////////////////////////////////////////////////////////////////////
 
-*/
+
 
 ///////////////////// conditional operator (Ternary)/////////////////////
 
@@ -447,3 +447,15 @@ console.log(drink);
 console.log(`i like to drinkg ${age >= 18 ? "pivo" : "voda"}`);
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
+ 
+*/
+
+//////////////////final coding challenge #4 /////////////////////
+
+const bill = 430;
+
+const tip =
+  bill >= 50 && bill <= 300 ? (tip = 0.15 * bill) : (tip = 0.2 * bill);
+console.log(
+  `The bill was ${bill}, the tip was ${tip}, and the total value ${bill + tip}`
+);
